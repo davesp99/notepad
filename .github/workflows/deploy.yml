@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: notepad # Indica que trabaje dentro de la subcarpeta
+        working-directory: notepad
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './notepad/dist' # Carpeta de salida correcta
+          path: 'notepad/dist' # Se quita el ./ para evitar confusiones de ruta
 
   deploy:
     environment:
