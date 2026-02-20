@@ -89,6 +89,6 @@ function App() {
       </div>
     </div>
   ); // Cierre de return
-} // Cierre de la función App
+} // Cierre de la función App.
 
 export default App
