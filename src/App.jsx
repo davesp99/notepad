@@ -51,7 +51,7 @@ function App() {
           texto={texto} 
           setTexto={setTexto} 
           agregarNota={agregarNota} 
-          inputRef={inputRef} // Enviamos el ref correctamente
+          inputRef={inputRef} // Enviamos el ref correctamente..
         />
         
         {notas.length === 0 ? (
